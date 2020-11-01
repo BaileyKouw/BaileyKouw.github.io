@@ -1,0 +1,260 @@
+/*      
+    palevioletred
+    font-family: 'Erica One', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* nav css */
+.navbar  {
+    position:sticky;
+    top:0;
+    z-index:100;
+    background-color: transparent;
+    border-radius: 0;
+    border:0;
+    height: 30px;
+}
+.navbar button{
+    background-color: black;
+}
+
+.navright{
+    display: flex; 
+} 
+.navright li{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    color: black;
+}
+.navright a {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.navright a:hover {
+    color: palevioletred;
+    text-decoration: none;
+}
+
+#one{
+    height: 20px;
+    background-color: pink;
+}
+#two {
+    height: 20px;
+    background-color: palevioletred;
+}
+
+/* Main page css */
+.container .text-center .main {
+    align-items: center;
+    top: 0;
+}
+.main h1{
+    margin-top: 100px;
+    font-family: 'Erica One', sans-serif;
+    font-size: 6em;
+}
+.main p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: palevioletred;
+    margin-bottom: 400px;
+}
+
+
+/* about page css */
+#about {
+    padding-top: 100px;
+    height: 100vh;
+    background-color: #F5F5F5;
+}
+ h1 {
+    font-family: 'Erica One', sans-serif;
+    font-size: 4em;
+}
+
+#hello{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: palevioletred;
+    font-size: 3em;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+#abtContent{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.skills{
+    display:flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-left: 50px;
+}
+.skillsHead{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.skillsHeadtwo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top:20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.skillcontent{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+/* Portfolio page css */
+#portfolio {
+    padding-top: 100px;
+    height: 100vh;
+    background-color: #F5F5F5;
+}
+#row{
+    display:flex;
+    flex-direction:row;
+    margin-top: 50px;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#row a:hover{
+    text-decoration: none;
+}
+#portfoliobox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    margin:50px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+#portfoliobox:hover{
+    box-shadow: 0 14px 28px rgba(224,139,167,0.25), 0 10px 10px rgba(224,139,167,0.22);
+}
+#portText{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    text-align: left;
+}
+.portTitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top:20px;
+    font-weight: bold;
+}
+#portText text{
+    font-family: 'Open Sans', sans-serif;
+    margin-top:30px;
+    color: black;
+}
+#portPhoto{
+    background-color: purple;
+}
+#portPhoto img{
+    height: 200px;
+}
+
+/* Contact page css */
+#contact {
+    padding-top: 60px;
+    height: 100vh;
+    background-color: #F5F5F5;
+}
+#contact h1{
+    margin-top: 50px;
+}
+#contact h3{
+    margin-top: 100px;
+}
+#contact svg:hover{
+    fill: palevioletred;
+    cursor: pointer;
+}
+#contact a {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+#contact a:hover{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+     #about {
+       height: 130vh;
+    }
+    #about .content-container{
+        flex-direction: column;
+        padding-left: 50px;
+        height: inherit;
+        
+    }
+    #about .about{
+        margin-right: 0px;
+    }
+    #about .skills{
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+    #portfolio {
+        height: auto;
+    }
+    #row {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -10px;
+    }
+}
+
+@media only screen and (max-width: 765px){
+    .main h1{
+        font-size: 5em;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+  .main h1{
+    font-size: 3em;
+  }
+    #about .content-container{
+        padding-left: 0px;
+    }
+    #portfoliobox {
+        width: 400px;
+    }
+    #portText {
+        width: 200px;
+        margin-left: 10px;
+    }
+    .portTitle {
+        margin-bottom: -10px;
+    }
+}

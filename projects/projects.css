@@ -1,0 +1,16 @@
+#backArrow{
+    font-size: 5em;
+    margin-left: 50px;
+}
+#backArrow a{
+    color: palevioletred;
+}
+h1{
+   font-family: 'Erica One', sans-serif;
+    font-size: 4em;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
