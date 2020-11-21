@@ -74,14 +74,39 @@ html{
     font-family: 'Erica One', sans-serif;
     font-size: 4em;
 }
+#about{
+    padding-top: 100px;
+}
 
 #hello{
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
     color: palevioletred;
     font-size: 3em;
-    margin-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 50px;
+}
+
+#abtContent{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.skillsHead{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+.skillsHeadtwo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 40px;
+    padding-bottom: 5px;
+}
+
+.skillcontent{
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Portfolio page css */
