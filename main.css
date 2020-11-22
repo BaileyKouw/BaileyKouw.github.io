@@ -76,6 +76,7 @@ html{
 }
 #about{
     padding-top: 100px;
+    padding-bottom: 200px;
 }
 
 #hello{
@@ -107,6 +108,7 @@ html{
 
 .skillcontent{
     font-family: 'Open Sans', sans-serif;
+   
 }
 
 /* Portfolio page css */

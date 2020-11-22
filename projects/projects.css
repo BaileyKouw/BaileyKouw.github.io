@@ -9,8 +9,35 @@ h1{
    font-family: 'Erica One', sans-serif;
     font-size: 4em;
 }
-.container{
-    display:flex;
-    align-items: center;
-    justify-content: center;
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: palevioletred;
+    font-size: 3em;
+    margin-top: 50px;
 }
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+figure{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+
+/* format content for large screen 
+so that text does not span the entire width */
+@media only screen and (min-width: 700px){
+    #projContent{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
