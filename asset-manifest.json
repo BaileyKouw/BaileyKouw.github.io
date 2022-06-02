@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dca7afce.css",
+    "main.js": "/static/js/main.b83dac91.js",
+    "static/media/upperborder.png": "/static/media/upperborder.e486845e15afca15d462.png",
+    "static/media/jpnCat.png": "/static/media/jpnCat.e1b7083e5d5df40b2a52.png",
+    "static/media/lowerborder.png": "/static/media/lowerborder.da67f47aea646260e3dc.png",
+    "static/media/tipCalculatorCat.png": "/static/media/tipCalculatorCat.9263a5fbb80150acda05.png",
+    "static/media/prototype.gif": "/static/media/prototype.8ebc9401e63d489f75f4.gif",
+    "static/media/uxCat.png": "/static/media/uxCat.5d11c0ace0a0641ee754.png",
+    "static/media/blackBackground.jpg": "/static/media/blackBackground.ca1d562d169bcf2b275e.jpg",
+    "static/media/appdemo.gif": "/static/media/appdemo.38e419b9970a9ac032ba.gif",
+    "static/media/firstSketch.jpg": "/static/media/firstSketch.706002c4bac338f4eaab.jpg",
+    "static/media/secondSketch.jpg": "/static/media/secondSketch.cc08c33822bc6b0da4e1.jpg",
+    "static/media/heuristics.png": "/static/media/heuristics.a937229b545ce046baea.png",
+    "static/media/designLaws.png": "/static/media/designLaws.b6a39f949ac97c9f7f72.png",
+    "static/media/languages.png": "/static/media/languages.44a41b89e7e22d4625fe.png",
+    "static/media/prototype.png": "/static/media/prototype.28353c4ddd24dc65450a.png",
+    "static/media/active-states.jpg": "/static/media/active-states.e478e6ce31c9b771b88a.jpg",
+    "static/media/desktop-design-completed.jpg": "/static/media/desktop-design-completed.f7a45e3c2e2ecd0ac13d.jpg",
+    "static/media/desktop-design-empty.jpg": "/static/media/desktop-design-empty.99d11dcbe1eea43cf046.jpg",
+    "static/media/mobile-design.jpg": "/static/media/mobile-design.a1ac30da0758dacb8f95.jpg",
+    "static/media/data.png": "/static/media/data.59d8bbad954695e6427d.png",
+    "index.html": "/index.html",
+    "main.dca7afce.css.map": "/static/css/main.dca7afce.css.map",
+    "main.b83dac91.js.map": "/static/js/main.b83dac91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dca7afce.css",
+    "static/js/main.b83dac91.js"
+  ]
+}
